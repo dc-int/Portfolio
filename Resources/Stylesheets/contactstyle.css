@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --bg-color: #1f1f21;
+    --text-color: #fff;
+    --main-color: #ffae00;
+    --big-font: 7rem;
+    --mid-fond: 2.5rem;
+    --p-font: 1rem;
+}
+
+body{
+    background: var(--bg-color);
+    min-height: 100vh;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 4%;
+    background: transparent;
+    transition: all ease .45s;
+}
+
+.logo{
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.logo span{
+    color: var(--main-color);
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    font-size: var(--p-font);
+    font-weight: 500;
+    color: var(--text-color);
+    margin: 0 25px;
+    transition: all ease .50s;
+}
+
+.navbar a:hover{
+    color: var(--main-color);
+}
+
+.navbar a.active{
+    color: var(--main-color);
+}
+
+.contact-info{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.card1{
+    background: var(--main-color);
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.card2{
+    background: var(--main-color);
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.card3{
+    background: var(--main-color);
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.card-icon{
+    font-size: 28px;
+    background: var(--bg-color);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+
+.card1:hover .card-icon{
+    background: none;
+    color: var(--bg-color);
+    transform: scale(1.5);
+}
+
+.card2:hover .card-icon{
+    background: none;
+    color: var(--bg-color);
+    transform: scale(1.5);
+}
+
+.card3:hover .card-icon{
+    background: none;
+    color: var(--bg-color);
+    transform: scale(1.5);
+}
+
+.card1 p{
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.card2 p{
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.card3 p{
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}

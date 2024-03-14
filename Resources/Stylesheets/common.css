@@ -1,0 +1,23 @@
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.footer-bottom{
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-bottom p{
+    font-size: 8px;
+    color: var(--text-color);
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
